@@ -1,0 +1,23 @@
+{
+  "name": "notes-p2p",
+  "version": "1.0.0",
+  "description": "Notes app backend with the hyperstack and typescript",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "22.14.1",
+    "typescript": "5.8.3"
+  },
+  "dependencies": {
+    "dht-rpc": "6.18.0",
+    "hyperbee": "2.24.2",
+    "hypercore": "11.5.0",
+    "hyperdht": "6.20.5",
+    "hyperswarm": "4.11.4"
+  }
+}
